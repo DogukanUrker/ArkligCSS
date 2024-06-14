@@ -52,6 +52,7 @@ body {
   --dark: rgb(250, 250, 250);
   --primary: rgb(245, 158, 11);
   --secondary: rgba(245, 158, 11, 0.75);
+  --tertiary: rgba(245, 158, 11, 0.25);
 }
 /* Global Variables End */
 
@@ -62,7 +63,7 @@ body {
 }
 
 ::selection {
-  background-color: rgba(245, 158, 11, 0.25);
+  background-color: var(--tertiary);
 }
 /* Global Styles End */
 
