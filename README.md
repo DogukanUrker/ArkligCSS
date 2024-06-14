@@ -1,2 +1,8 @@
 # ArkligCSS
- Simple CSS framework
+
+Simple CSS framework.
+[in dev]
+
+### CDN
+
+https://cdn.jsdelivr.net/gh/DogukanUrker/ArkligCSS@main/arklig.css
