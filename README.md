@@ -5,9 +5,8 @@ Classless light-weight CSS Framework. Only ≈4.3kb
 
 ### CDN
 
-<<<<<<< Updated upstream
 https://cdn.jsdelivr.net/gh/DogukanUrker/ArkligCSS@main/arklig.css
-=======
+
 #### Default
 
 https://cdn.jsdelivr.net/gh/DogukanUrker/ArkligCSS@main/ArkligMin/Arklig.min.css
@@ -57,4 +56,3 @@ Violet: https://cdn.jsdelivr.net/gh/DogukanUrker/ArkligCSS@main/ArkligMin/Arklig
 Yellow: https://cdn.jsdelivr.net/gh/DogukanUrker/ArkligCSS@main/ArkligMin/Arklig.Yellow.min.css
 
 Zinc: https://cdn.jsdelivr.net/gh/DogukanUrker/ArkligCSS@main/ArkligMin/Arklig.Zinc.min.css
->>>>>>> Stashed changes
