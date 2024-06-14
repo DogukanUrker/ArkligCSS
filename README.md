@@ -4,8 +4,6 @@ Classless light-weight CSS Framework. Only ≈4.3kb
 
 ### CDN
 
-https://cdn.jsdelivr.net/gh/DogukanUrker/ArkligCSS@main/arklig.css
-
 #### Default
 
 https://cdn.jsdelivr.net/gh/DogukanUrker/ArkligCSS@main/ArkligMin/Arklig.min.css
