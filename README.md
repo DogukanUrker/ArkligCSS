@@ -1,6 +1,6 @@
 # ArkligCSS
 
-Simple CSS framework.
+Classless light-weight CSS Framework. Only ≈4.3kb
 [in dev]
 
 ### CDN
