@@ -4,9 +4,6 @@
 *::after {
   box-sizing: border-box;
 }
-* {
-  margin: 0;
-}
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -51,7 +48,7 @@ body {
 /* Global Variables */
 :root {
   color-scheme: light dark;
-  --light: rgb(5, 5, 5);
+  --light: rgb(15, 15, 15);
   --dark: rgb(250, 250, 250);
   --primary: rgb(222, 155, 40);
   --secondary: rgb(186, 116, 30);
@@ -70,6 +67,11 @@ body {
 /* Global Styles End */
 
 /* Element Styles */
+body {
+  width: 90%;
+  margin: auto;
+}
+
 button,
 input[type="submit"] {
   cursor: pointer;
@@ -119,8 +121,6 @@ li::marker {
 }
 
 img {
-  display: block;
-  max-width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -273,5 +273,26 @@ meter::-webkit-meter-even-less-good-value {
 meter::-moz-meter-bar {
   background-color: var(--primary);
   border-radius: 0.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table th,
+table td {
+  padding: 0.5rem;
+  border: 1px solid var(--primary);
+}
+table th {
+  background-color: var(--primary);
+  color: var(--dark);
+  font-weight: 600;
+}
+
+details {
+  border: 1px solid var(--primary);
+  border-radius: 0.25rem;
+  padding: 0.5rem;
 }
 /* Element Styles End */
