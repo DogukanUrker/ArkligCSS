@@ -309,4 +309,8 @@ details {
   border-radius: 0.25rem;
   padding: 0.5rem;
 }
+
+mark {
+  background-color: var(--tertiary);
+}
 /* Element Styles End */
