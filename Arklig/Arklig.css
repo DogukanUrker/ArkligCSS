@@ -69,7 +69,7 @@ body {
 
 /* Element Styles */
 body {
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
@@ -136,6 +136,7 @@ li::marker {
 
 img {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
 }
 
 select {
@@ -261,34 +262,6 @@ progress::-moz-progress-bar {
   border-radius: 0.5rem;
 }
 
-meter {
-  width: 100%;
-  height: 1rem;
-  background-color: var(--primary);
-  border-radius: 0.5rem;
-  transition: background-color 0.2s;
-}
-meter::-webkit-meter-bar {
-  background-color: light-dark(var(--light), var(--dark));
-  border-radius: 0.5rem;
-}
-meter::-webkit-meter-optimum-value {
-  background-color: var(--primary);
-  border-radius: 0.5rem;
-}
-meter::-webkit-meter-suboptimum-value {
-  background-color: var(--secondary);
-  border-radius: 0.5rem;
-}
-meter::-webkit-meter-even-less-good-value {
-  background-color: var(--dark);
-  border-radius: 0.5rem;
-}
-meter::-moz-meter-bar {
-  background-color: var(--primary);
-  border-radius: 0.5rem;
-}
-
 table {
   border-collapse: collapse;
   width: 100%;
@@ -314,4 +287,22 @@ mark {
   background-color: var(--tertiary);
 }
 
+pre {
+  background-color: light-dark(rgb(240, 240, 240), rgb(20, 20, 20));
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+blockquote {
+  border-radius: 0.25rem;
+  border-left: 4px solid var(--primary);
+  padding: 0.5rem;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 98%;
+  }
+}
 /* Element Styles End */
