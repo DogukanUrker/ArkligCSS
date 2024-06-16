@@ -1,6 +1,6 @@
 # ArkligCSS
 
-Classless light-weight CSS Framework. Only ≈4.3kb
+Classless light-weight CSS Framework. Only ≈4kb
 
 [👉🏻 Click for live preview](https://arkligcss-0590043e3b25.herokuapp.com/)
 ![509shots_so](https://github.com/DogukanUrker/ArkligCSS/assets/62756402/256d6e9d-a472-43de-a1b1-fe2190eb2e39)
